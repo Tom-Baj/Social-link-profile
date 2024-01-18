@@ -1,3 +1,102 @@
+:root {
+  /* Primary */
+  --green: hsl(75, 94%, 57%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  background-color: var(--off-black);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--white);
+  font-weight: 400px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 15px;
+  color: var(--green);
+}
+
+h4 {
+  font-weight: 600;
+}
+
+img {
+  border-radius: 50%;
+  width: 6em;
+  margin: 1em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-grey);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 350px;
+}
+
+.text-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.localisation {
+  margin-bottom: 1em;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0.5em 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.social-link {
+  background-color: var(--grey);
+  margin: 0.4em;
+  width: 95%;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
